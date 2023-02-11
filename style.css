@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('daniele-colucci-gOQMwGlYe2I-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.clock {
+    border: .2rem solid whitesmoke;
+    margin-top: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: .5rem;
+    padding: 1.7rem;
+    background-color: rgba(0, 0, 0, .2)
+}
